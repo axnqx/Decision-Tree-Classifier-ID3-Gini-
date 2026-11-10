@@ -1,0 +1,32 @@
+Description
+"
+
+### **Dataset Description: Car Evaluation Dataset**  
+
+#### **Overview:**  
+The **Car Evaluation Dataset** is designed to classify cars based on their various attributes, determining their evaluation level. The dataset includes **six categorical features** that describe different aspects of a car, such as price, maintenance cost, and safety, and one **target variable (`class`)** that represents the car's overall evaluation.  
+
+---
+
+### **Feature Details:**
+| **Variable Name** | **Role**   | **Type**        | **Description**                                      | **Values**             | **Missing Values** |
+|------------------|------------|----------------|------------------------------------------------------|------------------------|--------------------|
+| `buying`        | Feature     | Categorical    | Buying price of the car                             | vhigh, high, med, low  | No                 |
+| `maint`         | Feature     | Categorical    | Maintenance cost of the car                         | vhigh, high, med, low  | No                 |
+| `doors`         | Feature     | Categorical    | Number of doors                                    | 2, 3, 4, 5more         | No                 |
+| `persons`       | Feature     | Categorical    | Maximum number of persons the car can carry        | 2, 4, more             | No                 |
+| `lug_boot`      | Feature     | Categorical    | Size of the luggage boot                           | small, med, big        | No                 |
+| `safety`        | Feature     | Categorical    | Estimated safety level of the car                  | low, med, high         | No                 |
+| `class`         | Target      | Categorical    | Final car evaluation level                         | 0 (unacc), 1 (acc), 2 (good), 3 (vgood) | No |
+
+---
+
+### **Target Variable (`class`):**  
+The **class** column represents the final evaluation of the car, which has been mapped into numerical values for analysis:  
+
+- `0`: Unacceptable (`unacc`)  
+- `1`: Acceptable (`acc`)  
+- `2`: Good (`good`)  
+- `3`: Very Good (`vgood`)  
+
+    "
